@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://vivoweb.org/ontology/core" uri="vivo-core-public-1.4.owl"/>
+    <uri id="Imports Wizard Entry" name="http://edamontology.org" uri="EDAM.owl"/>
+    <uri id="Imports Wizard Entry" name="http://phenomebrowser.net/ontologies/mesh/mesh.owl#" uri="mesh.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="http://edamontology.org/" uri="EDAM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="http://phenomebrowser.net/ontologies/mesh/mesh.owl" uri="mesh.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://vivoweb.org/ontology/core" uri="vivo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://vivoweb.org/ontology/core" uri="vivo-core-public-1.4.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://vivoweb.org/ontology/core" uri="core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://www.semanticweb.org/lauramiron/ontologies/2019/1/ResearchMentorOntology" uri="unmerged-ResearchMentorOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://www.semanticweb.org/lauramiron/ontologies/2019/1/ResearchMentorOntology" uri="ResearchMentorOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor" uri="merged-ResearchMentorOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552173889349" name="duplicate:http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor" uri="main-ResearchMentorOntology.owl"/>
+    </group>
+</catalog>

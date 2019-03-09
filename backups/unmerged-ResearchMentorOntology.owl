@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lauramiron/ontologies/2019/1/ResearchMentorOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lauramiron/ontologies/2019/1/ResearchMentorOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/lauramiron/ontologies/2019/1/ResearchMentorOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://edamontology.org</Import>
+    <Import>http://vivoweb.org/ontology/core</Import>
+    <Declaration>
+        <Class IRI="#MasterDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndergraduateDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#associateProfessorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facultyMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proffesorOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#organizationName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HaematologyTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JudithShizuru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarkMusen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MedicineTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OncologyTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordBIO-X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordBioxGraduateFellowship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordCancerInstitue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordCardiovascularInstitute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordComputerScienceDepartment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordInstituteCellBioRegMedicine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordMedicalSchool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanfordUniversity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VirginiaWinn"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#MasterDegree"/>
+        <Class IRI="http://vivoweb.org/ontology/core#AcademicDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndergraduateDegree"/>
+        <Class IRI="http://vivoweb.org/ontology/core#AcademicDegree"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://edamontology.org/topic_3408"/>
+        <NamedIndividual IRI="#HaematologyTopic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#FacultyMember"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#FacultyMember"/>
+        <NamedIndividual IRI="#MarkMusen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://edamontology.org/topic_3303"/>
+        <NamedIndividual IRI="#MedicineTopic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://edamontology.org/topic_2640"/>
+        <NamedIndividual IRI="#OncologyTopic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+        <NamedIndividual IRI="#StanfordBIO-X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#Grant"/>
+        <NamedIndividual IRI="#StanfordBioxGraduateFellowship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+        <NamedIndividual IRI="#StanfordCancerInstitue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+        <NamedIndividual IRI="#StanfordCardiovascularInstitute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <NamedIndividual IRI="#StanfordComputerScienceDepartment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <NamedIndividual IRI="#StanfordMedicalSchool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://vivoweb.org/ontology/core#University"/>
+        <NamedIndividual IRI="#StanfordUniversity"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#hasResearchArea"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <NamedIndividual IRI="#HaematologyTopic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#hasResearchArea"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <NamedIndividual IRI="#OncologyTopic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memberOf"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <NamedIndividual IRI="#StanfordBIO-X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memberOf"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <NamedIndividual IRI="#StanfordCancerInstitue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memberOf"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <NamedIndividual IRI="#StanfordCardiovascularInstitute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memberOf"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <NamedIndividual IRI="#StanfordInstituteCellBioRegMedicine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#facultyMemberOf"/>
+        <NamedIndividual IRI="#MarkMusen"/>
+        <NamedIndividual IRI="#StanfordMedicalSchool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#awardsGrant"/>
+        <NamedIndividual IRI="#StanfordBIO-X"/>
+        <NamedIndividual IRI="#StanfordBioxGraduateFellowship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#subOrganizationWithin"/>
+        <NamedIndividual IRI="#StanfordBIO-X"/>
+        <NamedIndividual IRI="#StanfordUniversity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#hasSubOrganization"/>
+        <NamedIndividual IRI="#StanfordUniversity"/>
+        <NamedIndividual IRI="#StanfordComputerScienceDepartment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#hasSubOrganization"/>
+        <NamedIndividual IRI="#StanfordUniversity"/>
+        <NamedIndividual IRI="#StanfordMedicalSchool"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://vivoweb.org/ontology/core#email"/>
+        <NamedIndividual IRI="#JudithShizuru"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Jshizuru@stanford.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#MarkMusen"/>
+        <Literal>Mark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#MarkMusen"/>
+        <Literal>Musen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationName"/>
+        <NamedIndividual IRI="#StanfordInstituteCellBioRegMedicine"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Institute for Stem Cell Biology and Regenerative Medicine</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#associateProfessorOf"/>
+        <ObjectProperty IRI="#facultyMemberOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#facultyMemberOf"/>
+        <ObjectProperty IRI="#memberOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#hasCurrentMember"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#memberOf"/>
+        <ObjectProperty IRI="http://vivoweb.org/ontology/core#currentMemberOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#proffesorOf"/>
+        <ObjectProperty IRI="#facultyMemberOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#memberOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memberOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memberOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
