@@ -20099,68 +20099,35 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdfs:label xml:lang="en-us">Research Opportunity</rdfs:label>
 </rdf:Description>
 <!--  -->
-<!-- http://purl.org/ontology/bibo/AcademicArticle -->
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/AcademicArticle">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Article"/>
-	<rdfs:subClassOf rdf:nodeID="genid5"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid5">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasPublicationVenue"/>
-	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/Journal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/AcademicArticle">
-	<rdfs:subClassOf rdf:nodeID="genid6"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid6">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/eanucc13"/>
-	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/AcademicArticle">
-	<x_0.7:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific academic journal article</x_0.7:exampleAnnot>
-	<x_0.7:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Written by scholars for other scholars, typically published in an academic journal with an abstract and bibliography</x_0.7:shortDef>
-	<rdfs:comment xml:lang="en">A scholarly academic article, typically published in a journal.</rdfs:comment>
-	<rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
-	<rdfs:label xml:lang="en-us">Academic Article</rdfs:label>
-	<ns:term_status>stable</ns:term_status>
-</rdf:Description>
-<!--  -->
 <!-- http://purl.org/ontology/bibo/Article -->
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Article">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid7"/>
+	<rdfs:subClassOf rdf:nodeID="genid5"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid7">
+<rdf:Description rdf:nodeID="genid5">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/doi"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Article">
-	<rdfs:subClassOf rdf:nodeID="genid8"/>
+	<rdfs:subClassOf rdf:nodeID="genid6"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid8">
+<rdf:Description rdf:nodeID="genid6">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/pageEnd"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Article">
-	<rdfs:subClassOf rdf:nodeID="genid9"/>
+	<rdfs:subClassOf rdf:nodeID="genid7"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid9">
+<rdf:Description rdf:nodeID="genid7">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/pageStart"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20181,10 +20148,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/AudioDocument">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid10"/>
+	<rdfs:subClassOf rdf:nodeID="genid8"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid10">
+<rdf:Description rdf:nodeID="genid8">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/distributor"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -20204,10 +20171,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/AudioVisualDocument">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid11"/>
+	<rdfs:subClassOf rdf:nodeID="genid9"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid11">
+<rdf:Description rdf:nodeID="genid9">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/distributor"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -20240,13 +20207,33 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Book">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
+	<rdfs:subClassOf rdf:nodeID="genid10"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid10">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
+	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/ontology/bibo/Book">
+	<rdfs:subClassOf rdf:nodeID="genid11"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid11">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/edition"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/ontology/bibo/Book">
 	<rdfs:subClassOf rdf:nodeID="genid12"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid12">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
-	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/lccn"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Book">
@@ -20255,7 +20242,7 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:nodeID="genid13">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/edition"/>
+	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/numPages"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
@@ -20264,26 +20251,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid14">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/lccn"/>
-	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/Book">
-	<rdfs:subClassOf rdf:nodeID="genid15"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid15">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/numPages"/>
-	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/Book">
-	<rdfs:subClassOf rdf:nodeID="genid16"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid16">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#placeOfPublication"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20303,30 +20270,30 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/BookSection">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/DocumentPart"/>
-	<rdfs:subClassOf rdf:nodeID="genid17"/>
+	<rdfs:subClassOf rdf:nodeID="genid15"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid17">
+<rdf:Description rdf:nodeID="genid15">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/edition"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/BookSection">
-	<rdfs:subClassOf rdf:nodeID="genid18"/>
+	<rdfs:subClassOf rdf:nodeID="genid16"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid18">
+<rdf:Description rdf:nodeID="genid16">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/pageEnd"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/BookSection">
-	<rdfs:subClassOf rdf:nodeID="genid19"/>
+	<rdfs:subClassOf rdf:nodeID="genid17"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid19">
+<rdf:Description rdf:nodeID="genid17">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/pageStart"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20384,10 +20351,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/CollectedDocument">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid20"/>
+	<rdfs:subClassOf rdf:nodeID="genid18"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid20">
+<rdf:Description rdf:nodeID="genid18">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -20407,10 +20374,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Collection">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
-	<rdfs:subClassOf rdf:nodeID="genid21"/>
+	<rdfs:subClassOf rdf:nodeID="genid19"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid21">
+<rdf:Description rdf:nodeID="genid19">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/oclcnum"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20431,10 +20398,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Conference">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#Event"/>
-	<rdfs:subClassOf rdf:nodeID="genid22"/>
+	<rdfs:subClassOf rdf:nodeID="genid20"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid22">
+<rdf:Description rdf:nodeID="genid20">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#abbreviation"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20468,13 +20435,33 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+	<rdfs:subClassOf rdf:nodeID="genid21"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid21">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#features"/>
+	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
+	<rdfs:subClassOf rdf:nodeID="genid22"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid22">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasPart"/>
+	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/DocumentPart"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
 	<rdfs:subClassOf rdf:nodeID="genid23"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid23">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#features"/>
-	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasPublicationVenue"/>
+	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/Collection"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
@@ -20483,8 +20470,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:nodeID="genid24">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasPart"/>
-	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/DocumentPart"/>
+	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/abstract"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
@@ -20492,26 +20479,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid25">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasPublicationVenue"/>
-	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/Collection"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
-	<rdfs:subClassOf rdf:nodeID="genid26"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid26">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/abstract"/>
-	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
-	<rdfs:subClassOf rdf:nodeID="genid27"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid27">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/oclcnum"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20531,30 +20498,30 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/DocumentPart">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid28"/>
+	<rdfs:subClassOf rdf:nodeID="genid26"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid28">
+<rdf:Description rdf:nodeID="genid26">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#partOf"/>
 	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/Document"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/DocumentPart">
-	<rdfs:subClassOf rdf:nodeID="genid29"/>
+	<rdfs:subClassOf rdf:nodeID="genid27"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid29">
+<rdf:Description rdf:nodeID="genid27">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/DocumentPart">
-	<rdfs:subClassOf rdf:nodeID="genid30"/>
+	<rdfs:subClassOf rdf:nodeID="genid28"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid30">
+<rdf:Description rdf:nodeID="genid28">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#placeOfPublication"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20587,30 +20554,30 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/EditedBook">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/CollectedDocument"/>
-	<rdfs:subClassOf rdf:nodeID="genid31"/>
+	<rdfs:subClassOf rdf:nodeID="genid29"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid31">
+<rdf:Description rdf:nodeID="genid29">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/EditedBook">
-	<rdfs:subClassOf rdf:nodeID="genid32"/>
+	<rdfs:subClassOf rdf:nodeID="genid30"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid32">
+<rdf:Description rdf:nodeID="genid30">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/edition"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/EditedBook">
-	<rdfs:subClassOf rdf:nodeID="genid33"/>
+	<rdfs:subClassOf rdf:nodeID="genid31"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid33">
+<rdf:Description rdf:nodeID="genid31">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#placeOfPublication"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20710,10 +20677,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Journal">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
-	<rdfs:subClassOf rdf:nodeID="genid34"/>
+	<rdfs:subClassOf rdf:nodeID="genid32"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid34">
+<rdf:Description rdf:nodeID="genid32">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#abbreviation"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -20862,20 +20829,20 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Patent">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid35"/>
+	<rdfs:subClassOf rdf:nodeID="genid33"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid35">
+<rdf:Description rdf:nodeID="genid33">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#dateIssued"/>
 	<owl:allValuesFrom rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Patent">
-	<rdfs:subClassOf rdf:nodeID="genid36"/>
+	<rdfs:subClassOf rdf:nodeID="genid34"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid36">
+<rdf:Description rdf:nodeID="genid34">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -20907,30 +20874,30 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Periodical">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Collection"/>
-	<rdfs:subClassOf rdf:nodeID="genid37"/>
+	<rdfs:subClassOf rdf:nodeID="genid35"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid37">
+<rdf:Description rdf:nodeID="genid35">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Periodical">
-	<rdfs:subClassOf rdf:nodeID="genid38"/>
+	<rdfs:subClassOf rdf:nodeID="genid36"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid38">
+<rdf:Description rdf:nodeID="genid36">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/eissn"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Periodical">
-	<rdfs:subClassOf rdf:nodeID="genid39"/>
+	<rdfs:subClassOf rdf:nodeID="genid37"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid39">
+<rdf:Description rdf:nodeID="genid37">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/issn"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -20987,10 +20954,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Report">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid40"/>
+	<rdfs:subClassOf rdf:nodeID="genid38"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid40">
+<rdf:Description rdf:nodeID="genid38">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/distributor"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -21010,20 +20977,20 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Series">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Collection"/>
-	<rdfs:subClassOf rdf:nodeID="genid41"/>
+	<rdfs:subClassOf rdf:nodeID="genid39"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid41">
+<rdf:Description rdf:nodeID="genid39">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/eissn"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Series">
-	<rdfs:subClassOf rdf:nodeID="genid42"/>
+	<rdfs:subClassOf rdf:nodeID="genid40"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid42">
+<rdf:Description rdf:nodeID="genid40">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/issn"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -21095,20 +21062,20 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Thesis">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
-	<rdfs:subClassOf rdf:nodeID="genid43"/>
+	<rdfs:subClassOf rdf:nodeID="genid41"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid43">
+<rdf:Description rdf:nodeID="genid41">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#abbreviation"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Thesis">
-	<rdfs:subClassOf rdf:nodeID="genid44"/>
+	<rdfs:subClassOf rdf:nodeID="genid42"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid44">
+<rdf:Description rdf:nodeID="genid42">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#placeOfPublication"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -21154,10 +21121,10 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/Website">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Collection"/>
-	<rdfs:subClassOf rdf:nodeID="genid45"/>
+	<rdfs:subClassOf rdf:nodeID="genid43"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid45">
+<rdf:Description rdf:nodeID="genid43">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#publisher"/>
 	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -21181,6 +21148,39 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdfs:comment xml:lang="en">A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc.</rdfs:comment>
 	<rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
 	<rdfs:label xml:lang="en-us">Workshop</rdfs:label>
+	<ns:term_status>stable</ns:term_status>
+</rdf:Description>
+<!--  -->
+<!-- http://vivoweb.org/ontology/core#AcademicArticle -->
+
+<rdf:Description rdf:about="http://vivoweb.org/ontology/core#AcademicArticle">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Article"/>
+	<rdfs:subClassOf rdf:nodeID="genid44"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid44">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasPublicationVenue"/>
+	<owl:allValuesFrom rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vivoweb.org/ontology/core#AcademicArticle">
+	<rdfs:subClassOf rdf:nodeID="genid45"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid45">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.org/ontology/bibo/eanucc13"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vivoweb.org/ontology/core#AcademicArticle">
+	<x_0.7:exampleAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific academic journal article</x_0.7:exampleAnnot>
+	<x_0.7:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Written by scholars for other scholars, typically published in an academic journal with an abstract and bibliography</x_0.7:shortDef>
+	<rdfs:comment xml:lang="en">A scholarly academic article, typically published in a journal.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+	<rdfs:label xml:lang="en-us">Academic Article</rdfs:label>
 	<ns:term_status>stable</ns:term_status>
 </rdf:Description>
 <!--  -->
