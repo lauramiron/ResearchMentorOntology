@@ -2309,6 +2309,23 @@ Examples of a Publisher include a person, an organization, or a service. Typical
 	<rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#facultyMemberOf"/>
 </rdf:Description>
 <!--  -->
+<!-- http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#authorOf -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#authorOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#authoredBy"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://purl.org/ontology/bibo/Document"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#authoredBy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#authoredBy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<!--  -->
 <!-- http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#facultyMemberOf -->
 
 <rdf:Description rdf:about="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#facultyMemberOf">
@@ -2639,6 +2656,7 @@ bibo has the domain of this property set to the union of Collection and Document
 <rdf:Description rdf:about="http://purl.org/ontology/bibo/pmid">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/identifier"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
 	<rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
 	<x_0.7:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PubMed ID (PMID) identifies a citation record (rather than full-text) in the PubMed database. It is not evidence of compliance with the NIH Public Access Policy, because it does not identify a full-text submission of any kind.</x_0.7:descriptionAnnot>
 	<rdfs:comment xml:lang="en">PubMed Identifier</rdfs:comment>
