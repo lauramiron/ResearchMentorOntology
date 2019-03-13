@@ -27153,7 +27153,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.725"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12374492</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27192,7 +27191,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#D000047"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#D012955"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordDivisionofGeneralPediatrics"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15181187</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27331,7 +27329,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.350.675"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16597649</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27415,7 +27412,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.695"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.685"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforImmersiveLearning"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17416922</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27747,8 +27743,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PubMedArticle21915320">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
-	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.695"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforImmersiveLearning"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21915320</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27857,7 +27851,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.300"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.530"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforImmersiveLearning"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22483042</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27930,8 +27923,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.300"/>
 	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#EmeritusFaculty"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforCancerSystemsBiology"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforHealthPolicyandPrimaryCareandOutcomesResearch"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23539590</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -27970,7 +27961,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.200.710"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordDivisionofGastroenterology"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23849819</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -28001,7 +27991,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.250"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.515"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.685"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordDivisionofBloodandMarrowTransplantation"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24127489</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -28087,7 +28076,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PubMedArticle24429629">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforInnovationinGlobalHealth"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24429629</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-12</datePublished>
 </rdf:Description>
@@ -28225,7 +28213,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.685"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.700.680"/>
 	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#Software"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24561350</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -28426,7 +28413,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.250"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.275"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24882899</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -28548,7 +28534,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.250.450"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforImmersiveLearning"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25129076</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -28618,7 +28603,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.250"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25197808</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -29053,7 +29037,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PubMedArticle25669430">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25669430</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -29333,7 +29316,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#D005257"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordDivisionofGeneralPediatrics"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25976143</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -29354,7 +29336,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#D006761"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforBiomedicalEthicsandDepartmentRadiology"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26002820</bibo:pmid>
 </rdf:Description>
 <!--  -->
@@ -29419,8 +29400,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PubMedArticle26092716">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
-	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.250"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforInnovationinGlobalHealth"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26092716</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -29528,7 +29507,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PubMedArticle26158891">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26158891</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -29849,7 +29827,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.725.750"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforComputerResearchinMusicandAcoustics"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26429247</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -30259,7 +30236,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.530"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26845687</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -30350,7 +30326,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.200"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26951397</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -30427,7 +30402,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.695"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforImmersiveLearning"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26988108</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -30678,7 +30652,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.300.100"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforBiomedicalEthicsandDepartmentRadiology"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27212606</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -31172,8 +31145,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.685"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordDivisionofGeneralPediatrics"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordDivisionofImmunologyandRheumatology"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27652504</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-12</datePublished>
 </rdf:Description>
@@ -31185,7 +31156,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.700.680"/>
 	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#Software"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforInheritedCardiovascularDisease"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27666373</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-15</datePublished>
 </rdf:Description>
@@ -31267,7 +31237,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.700.640"/>
 	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#Software"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforInheritedCardiovascularDisease"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27776117</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-12</datePublished>
 </rdf:Description>
@@ -31612,7 +31581,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.780.685"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforHealthPolicyandPrimaryCareandOutcomesResearch"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28161710</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-12</datePublished>
 </rdf:Description>
@@ -31656,7 +31624,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N03.623"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforPrimaryCareandOutcomesResearchandCenterforHealthPolicy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28183912</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-12</datePublished>
 </rdf:Description>
@@ -33384,7 +33351,6 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 	<rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicArticle"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.725"/>
 	<meshKeyword rdf:resource="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.775.175.250"/>
-	<meshKeyword rdf:resource="http://vivoweb.org/ontology/core#StanfordCenterforNarcolepsy"/>
 	<bibo:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30523329</bibo:pmid>
 	<datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-12</datePublished>
 </rdf:Description>
@@ -45810,8 +45776,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <!--  -->
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#D061217">
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/D061217"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Reduction Programs</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/D061217"/>
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#D061217"/>
 </rdf:Description>
 <!--  -->
@@ -45923,8 +45889,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.450.600">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.450.600"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observer Variation</rdfs:label>
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.450.600"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observer Variation</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -45958,8 +45924,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.585.400.600">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.585.400.600"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.585.400.600"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient Admission</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.585.400.600"/>
 </rdf:Description>
 <!--  -->
 
@@ -46280,8 +46246,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of Health Care</rdfs:label>
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of Health Care</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -46539,8 +46505,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.530.500.500">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.530.500.500"/>
-	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.530.500.500"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Models, Econometric</rdfs:label>
+	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.530.500.500"/>
 </rdf:Description>
 <!--  -->
 
@@ -46560,15 +46526,15 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.625">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.625"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probability</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625"/>
 </rdf:Description>
 <!--  -->
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.625.150">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.625.150"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625.150"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayes Theorem</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625.150"/>
 </rdf:Description>
 <!--  -->
 
@@ -46588,8 +46554,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.625.620">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.625.620"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propensity Score</rdfs:label>
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625.620"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propensity Score</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -46644,8 +46610,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.746.500">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.746.500"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatio-Temporal Analysis</rdfs:label>
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.746.500"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatio-Temporal Analysis</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -46693,8 +46659,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.795.650">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.795.650"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.795.650"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaplan-Meier Estimate</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.795.650"/>
 </rdf:Description>
 <!--  -->
 
