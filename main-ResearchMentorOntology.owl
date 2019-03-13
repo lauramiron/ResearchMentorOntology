@@ -2208,7 +2208,15 @@ Examples of a Publisher include a person, an organization, or a service. Typical
 
 <rdf:Description rdf:about="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#meshKeyword">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#meshKeywordOf"/>
 	<rdfs:range rdf:resource="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#Mesh"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#meshKeywordOf -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#meshKeywordOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#Mesh"/>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/lauramiron/ontologies/2019/1/merged-research-mentor#proffesorOf -->
@@ -45788,8 +45796,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <!--  -->
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#D019037">
-	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#D019037"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urban Health Services</rdfs:label>
+	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#D019037"/>
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/D019037"/>
 </rdf:Description>
 <!--  -->
@@ -45880,8 +45888,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.143.620.704">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.143.620.704"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal Care</rdfs:label>
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.143.620.704"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal Care</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -45915,15 +45923,15 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.450.600">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.450.600"/>
-	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.450.600"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observer Variation</rdfs:label>
+	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.450.600"/>
 </rdf:Description>
 <!--  -->
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.461.363.349">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.461.363.349"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.461.363.349"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directive Counseling</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.461.363.349"/>
 </rdf:Description>
 <!--  -->
 
@@ -45999,8 +46007,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.585.795">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.585.795"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preoperative Care</rdfs:label>
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.585.795"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preoperative Care</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -46027,8 +46035,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N02.421.726.758.310.890">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N02.421.726.758.310.890"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.726.758.310.890"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaccination</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N02.421.726.758.310.890"/>
 </rdf:Description>
 <!--  -->
 
@@ -46272,8 +46280,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715"/>
-	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of Health Care</rdfs:label>
+	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715"/>
 </rdf:Description>
 <!--  -->
 
@@ -46292,8 +46300,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 <!--  -->
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.350.150.775">
-	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.350.150.775"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selection Bias</rdfs:label>
+	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.350.150.775"/>
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.350.150.775"/>
 </rdf:Description>
 <!--  -->
@@ -46545,8 +46553,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.540">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.540"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.540"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monte Carlo Method</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.540"/>
 </rdf:Description>
 <!--  -->
 
@@ -46559,8 +46567,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.625.150">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.625.150"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayes Theorem</rdfs:label>
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625.150"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayes Theorem</rdfs:label>
 </rdf:Description>
 <!--  -->
 
@@ -46580,8 +46588,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.625.620">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.625.620"/>
-	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625.620"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propensity Score</rdfs:label>
+	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.625.620"/>
 </rdf:Description>
 <!--  -->
 
@@ -46636,8 +46644,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.746.500">
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.746.500"/>
-	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.746.500"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatio-Temporal Analysis</rdfs:label>
+	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.746.500"/>
 </rdf:Description>
 <!--  -->
 
@@ -46685,8 +46693,8 @@ See also core:localAwardId.</x_0.7:descriptionAnnot>
 
 <rdf:Description rdf:about="http://phenomebrowser.net/ontologies/mesh/mesh.owl#N05.715.360.750.795.650">
 	<core:exactMatch rdf:resource="http://rdf.imim.es/rh-mesh.owl#N05.715.360.750.795.650"/>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaplan-Meier Estimate</rdfs:label>
 	<core:exactMatch rdf:resource="http://purl.bioontology.org/ontology/RH-MESH/N05.715.360.750.795.650"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaplan-Meier Estimate</rdfs:label>
 </rdf:Description>
 <!--  -->
 
