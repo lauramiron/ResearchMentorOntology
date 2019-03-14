@@ -4,13 +4,7 @@ from tkinter import *
 class ResearchMentorApp(Tk):
     def __init__(self):
         Tk.__init__(self)
-
-        # style
-        # self._bstyle = 'TButton'
-        # self._fstyle = 'TFrame'
-        # self._lstyle = 'TLabel'
-        # self.s.configure('TLabel',foreground='green')
-        # self.s.configure('TFrame',bg='red')
+        self.geometry("800x600")
 
         # preload ontology individuals
         self.load_ontology()
@@ -91,6 +85,9 @@ class MeshSearchPage(Frame):
         MESH_OPTIONS = list(master.mesh_terms.keys())
         mesh_var = StringVar(master)
         mesh_var.set(MESH_OPTIONS[0])
+        
+        back_button = Button(self, text="<< Back", bg='red', command=lambda: master.switch_frame(HomePage))
+        back_button.grid(row=0,column=5)
 
         button = Button(self, text="Search", bg='red', command=lambda: self.search_mesh_term(master,mesh_var.get()))
         button.grid(row=0,column=1,sticky="nsew")
@@ -128,5 +125,44 @@ class AffiliationSearchPage(Frame):
         org_i = master.organizations[org]
         for fac in master.faculty_members:
             if org_i in fac.currentMemberOf:
-                org_results.append(org)
-        print(org_results)
+                org_results.append(fac)
+        self.results = org_results
+        print(self.results)
+        results_frame = SearchResultsFrame(self)
+        results_frame.grid(row=1,column=0)
+
+class SearchResultsFrame(Frame):
+    def __init__(self,master):
+        Frame.__init__(self,master)
+        self.grid(row=0,column=0,sticky='nsew')
+        print('got here')
+        print(master.results)
+        for i in range(0,len(master.results)):
+            fac = master.results[i]
+            print(fac)
+            f = Frame(self)
+            f.grid(row=i,column=0, sticky='new')
+            
+            name_text = "{0} {1}".format(fac.firstName, fac.lastName)
+            l = Label(f,text=name_text)
+            l.grid(row=0,column=0)
+
+            affls = fac.currentMemberOf
+            if (len(affls)>0): affl_text = "Affiliations: " + ",".join([aff.name for aff in affls])
+            else: affl_text = "Affiliations: Not found"
+            l = Label(f,text=affl_text)
+            l.grid(row=1,column=0)
+            
+            mentees = fac.mentorOf
+            if len(mentees)>0:
+                mentee_text = "Past and current student research assistants: " + ",".join(["{0} {1}".format(m.firstName, m.lastName) for m in mentees])
+                l = Label(f,text=mentee_text)
+                l.grid(row=2,column=0)
+
+            docs = fac.authorOf
+            if (len(docs)>0):
+                doc_text = "Published papers: "
+                for doc in docs:
+                    doc_text += "{0} ({1})\n".format(doc.title,str(doc.year))
+                l = Label(f,text=doc_text)
+                l.grid(row=3,column=0)
