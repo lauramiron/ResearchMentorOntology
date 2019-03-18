@@ -1,7 +1,7 @@
 from owlready2 import *
 from tkinter import *
-from tutils import *
 
+# define base app
 class ResearchMentorApp(Tk):
     def __init__(self):
         Tk.__init__(self)
@@ -72,18 +72,20 @@ class ResearchMentorApp(Tk):
         for i in range(0,3):
             frame.columnconfigure(i,weight=1)
             frame.rowconfigure(i,weight=1)
-        main_frame = Frame(frame,pady=20)
+        main_frame = Frame(frame)
         main_frame.grid(row=1,column=1,sticky=N+E+S+W)
         return main_frame
 
     def make_heading_label(self,frame,text):
-        l = Label(frame,text=text, font=(self._font,14,'bold'), anchor='w')
+        l = Label(frame,text=text, font=(self._font,14,'bold'))
         return l
 
     def make_data_label(self,frame,text):     
-        l = Label(frame,text=text, font=(self._font,14), anchor='w')
+        l = Label(frame,text=text, font=(self._font,14))
         return l
 
+
+### define pages ###########
 class HomePage(Frame):
     def __init__(self,master):
         Frame.__init__(self,master,bg=master._bgcolor)
@@ -117,19 +119,30 @@ class HomePage(Frame):
 class MeshSearchPage(Frame):
     def __init__(self,master):
         Frame.__init__(self,master,bg=master._bgcolor)
+        main_frame = master.make_main_frame(self)
 
         MESH_OPTIONS = list(master.mesh_terms.keys())
         mesh_var = StringVar(master)
         mesh_var.set(MESH_OPTIONS[0])
         
-        back_button = master.make_button(self,text=master._backtext, command=lambda: master.switch_frame(HomePage))
-        back_button.grid(row=0,column=5)
+        for i in range(0,4):
+            main_frame.columnconfigure(i, weight=1)
+            main_frame.rowconfigure(i, weight=1)
 
-        button = master.make_button(self, text="Search", command=lambda: self.search_mesh_term(master,mesh_var.get()))
-        button.grid(row=0,column=1,sticky="n")
+        l = master.make_page_title(main_frame,"Search Faculty by Mesh Term")
+        l.grid(row=0,column=1,columnspan=2,sticky='nswe')
 
-        mesh_option = OptionMenu(self, mesh_var, *MESH_OPTIONS)
-        mesh_option.grid(column=0,row=0)
+        l = master.make_label(main_frame,"Select a MESH term and click 'search' to display all Stanford faculty members \nwho have published papers with this MESH keyword")
+        l.grid(row=1,column=1,columnspan=2, sticky='nswe')
+        
+        mesh_option = OptionMenu(main_frame, mesh_var, *MESH_OPTIONS)
+        mesh_option.grid(column=1,columnspan=2, row=2)
+        
+        button = master.make_button(main_frame,"Search",lambda: self.search_mesh_term(master,mesh_var.get()))
+        button.grid(row=3,column=1)
+
+        back_button = master.make_button(main_frame, text=master._backtext, command=lambda: master.switch_frame(HomePage))
+        back_button.grid(row=3,column=2)
         
     def search_mesh_term(self,master,term):
         fac_results = []
@@ -137,8 +150,45 @@ class MeshSearchPage(Frame):
         for fac in master.faculty_members:
             if mesh_i in fac.hasResearchArea:
                 fac_results.append(fac)
-        print(fac_results)
-        
+        self.results = fac_results
+        self.canvas_frame = make_canvas(self,row=4,column=1,root2=master)
+        self.add_search_results(master)
+
+    def add_search_results(self,master):
+        for i in range(0,len(self.results)):
+            fac = self.results[i]
+            f = Frame(self.canvas_frame)
+            f.grid(row=i,column=0, sticky='new')
+            
+            name_text = "\n{0} {1}".format(fac.firstName, fac.lastName)
+            l = Label(f,text=name_text, font=(master._font,15))
+            l.grid(row=0,column=0,sticky='nsew')
+
+            affls = fac.currentMemberOf
+            if (len(affls)>0): 
+                affl_text1 = "Affiliations: "
+                affl_text2 =  "\n".join([aff.name for aff in affls[0:3]])
+                l1 = master.make_heading_label(f,text=affl_text1)
+                l1.grid(row=1,column=0)
+                l2 = master.make_data_label(f,text=affl_text2)
+                l2.grid(row=2,column=0)
+            
+            mentees = fac.mentorOf
+            if len(mentees)>0:
+                mentee_text1 = "Past and current student research assistants: "
+                mentee_text2 = ",".join(["{0} {1}".format(m.firstName, m.lastName) for m in mentees])
+                l1 = master.make_heading_label(f,text=mentee_text1)
+                l1.grid(row=3,column=0)
+                l2 = master.make_data_label(f,text=mentee_text2)
+                l2.grid(row=4,column=0)
+
+            docs = fac.authorOf
+            if (len(docs)>0):
+                doc_text = "Published papers: "
+                for doc in docs:
+                    doc_text += "{0} ({1})\n".format(doc.title,str(doc.year))
+                l = master.make_data_label(f,text=doc_text)
+                l.grid(row=5,column=0)      
 
 class AffiliationSearchPage(Frame):
     def __init__(self,master):
@@ -178,8 +228,6 @@ class AffiliationSearchPage(Frame):
             if org_i in fac.currentMemberOf:
                 org_results.append(fac)
         self.results = org_results
-        if self.results_frame:
-            self.results_frame.destroy()
         self.canvas_frame = make_canvas(self,row=4,column=1,root2=master)
         self.add_search_results(master)
 
@@ -190,8 +238,8 @@ class AffiliationSearchPage(Frame):
             f = Frame(self.canvas_frame)
             f.grid(row=i,column=0, sticky='new')
             
-            name_text = "{0} {1}".format(fac.firstName, fac.lastName)
-            l = Label(f,text=name_text, font=(master._font,14))
+            name_text = "\n{0} {1}".format(fac.firstName, fac.lastName)
+            l = Label(f,text=name_text, font=(master._font,15))
             l.grid(row=0,column=0,sticky='nsew')
 
             affls = fac.currentMemberOf
@@ -199,17 +247,18 @@ class AffiliationSearchPage(Frame):
                 affl_text1 = "Affiliations: "
                 affl_text2 =  ", ".join([aff.name for aff in affls])
                 l1 = master.make_heading_label(f,text=affl_text1)
-                l1.grid(row=1,column=0)
+                l1.grid(row=1,column=0,sticky='w')
                 l2 = master.make_data_label(f,text=affl_text2)
-                l2.grid(row=2,column=0)
+                l2.grid(row=2,column=0,sticky='w')
             
             mentees = fac.mentorOf
             if len(mentees)>0:
                 mentee_text1 = "Past and current student research assistants: "
                 mentee_text2 = ",".join(["{0} {1}".format(m.firstName, m.lastName) for m in mentees])
                 l1 = master.make_heading_label(f,text=mentee_text1)
-                l1.grid(row=3,column=0)
+                l1.grid(row=3,column=0,sticky='w')
                 l2 = master.make_data_label(f,text=mentee_text2)
+                l2.grid(row=4,column=0,sticky='w')
 
             docs = fac.authorOf
             if (len(docs)>0):
@@ -217,4 +266,59 @@ class AffiliationSearchPage(Frame):
                 for doc in docs:
                     doc_text += "{0} ({1})\n".format(doc.title,str(doc.year))
                 l = master.make_data_label(f,text=doc_text)
-                l.grid(row=4,column=0)
+                l.grid(row=5,column=0,sticky='w')
+
+
+
+
+############ code taken from http://effbot.org/zone/tkinter-autoscrollbar.htm ############
+class AutoScrollbar(Scrollbar):
+    # a scrollbar that hides itself if it's not needed.  only
+    # works if you use the grid geometry manager.
+    def set(self, lo, hi):
+        if float(lo) <= 0.0 and float(hi) >= 1.0:
+            # grid_remove is currently missing from Tkinter!
+            self.tk.call("grid", "remove", self)
+        else:
+            self.grid()
+        Scrollbar.set(self, lo, hi)
+
+def make_canvas(root,row,column,root2):
+    vscrollbar = AutoScrollbar(root)
+    vscrollbar.grid(row=row, column=column+1, sticky=N+S)
+    hscrollbar = AutoScrollbar(root, orient=HORIZONTAL)
+    hscrollbar.grid(row=row+1, column=column, sticky=E+W)
+
+    canvas = Canvas(root,xscrollcommand=hscrollbar.set,
+                    yscrollcommand=vscrollbar.set)
+    canvas.grid(row=row, column=column, sticky=N+S+E+W)
+
+    vscrollbar.config(command=canvas.yview)
+    hscrollbar.config(command=canvas.xview)
+
+    # make the canvas expandable
+    root.grid_rowconfigure(0, weight=1)
+    root.grid_columnconfigure(0, weight=1)
+
+    # create canvas contents
+
+    frame = Frame(canvas)
+    frame.rowconfigure(1, weight=1)
+    frame.columnconfigure(1, weight=1)
+
+    canvas.create_window(0, 0, anchor=NW, window=frame)
+
+    frame.update_idletasks()
+
+    canvas.config(scrollregion=(0,0,1200,1200))
+    print(canvas.bbox(ALL))
+    return frame
+###########################################################################################
+
+
+
+
+
+
+
+

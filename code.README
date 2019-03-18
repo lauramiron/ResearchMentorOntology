@@ -1,0 +1,37 @@
+########################## README ###########################################
+Below is a brief description of the code included in our submission:
+
+
+Website Scraping and Pulling.ipynb - author Sehj: scrape data from PubMed into csv files
+
+
+Scrape Students.ipynb - author Laura: scrape student and faculty data from 
+https://biox.stanford.edu, https://med.stanford.edu/profiles  and add to instances to ontology using owlready2
+
+
+Biomedical Science Profs.ipynb - author Laura: import faculty data from 
+"https://biosciences.stanford.edu/faculty/biosciences-faculty-database/" and add instances 
+to ontology using owlready2
+
+
+ScrapePubMedCsv.ipynb - author Laura: parse pubmed data csv files created by Scrape Students.ipynb, 
+match faculty and student names to existing instances in ontology, and add data from csv on published 
+documents and mesh keywords.
+
+
+App.py - author Laura: run this file to start the front end python application. 
+This requires a python environment with tkinter installed.
+
+
+pages.py - author Laura: main logic of front-end app.
+
+
+main-ResearchMentorOntology.owl - This is the main ontology. In this version, Mesh 
+instances are classified as subclasses of 'Mesh' only, rather than as subclasses of 
+the specific Mesh term in the sub-hierarchy. This is currently necessary for perform of the 
+app. However, a version where the Mesh instances are correctly classified was used for the evaluation
+portion, so reasoning could be performed over Mesh sub-hierarchies
+
+
+subhier-ResearchMentorOntology.owl - This is the version of the ontology used for the evaluation
+portion, as explained above.
